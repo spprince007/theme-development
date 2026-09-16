@@ -1,0 +1,123 @@
+/* common css  */
+img{
+    max-width: 100%;
+}
+
+/* header style  */
+ #header-area {
+    padding: 15px 0;
+}
+
+/* Main Menu */
+div#header-area .col-md-9 > ul {
+    font-family: "Oswald", sans-serif;
+    margin: 10px 0 0;
+    padding: 0;
+    list-style: none;
+    text-align: right;
+}
+
+div#header-area .col-md-9 > ul > li {
+    display: inline-block;
+    position: relative;
+    color: #a5a5a5;
+}
+
+div#header-area .col-md-9 ul li a {
+    color: #262626;
+    padding: 20px 10px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Main Menu Hover */
+#header-area .col-md-9 > ul > li > a:hover {
+    color: #029fff;
+}
+
+
+/* =========================
+   First Sub Menu
+========================= */
+
+div#header-area .col-md-9 ul ul {
+    background: #262626;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    list-style: none;
+    
+    display: none;
+    
+    z-index: 999;
+}
+
+div#header-area .col-md-9 ul ul li {
+    display: block;
+    position: relative;
+}
+
+div#header-area .col-md-9 ul ul li a {
+    color: #faf8f8;
+    padding: 10px 20px;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+div#header-area .col-md-9 ul ul li a:hover {
+    background: #029fff;
+}
+
+
+/* =========================
+   Show Submenu on Hover
+========================= */
+
+div#header-area .col-md-9 ul li:hover > ul {
+    display: block;
+}
+
+
+/* =========================
+   Second / Third Level Menu
+========================= */
+
+div#header-area .col-md-9 ul ul ul {
+    top: 0;
+    left: 100%;
+}
+
+/* Menu postion  */
+
+/* left menu  */
+#header-area.left-menu .col-md-9{
+    order: 1;
+}
+#header-area.left-menu .col-md-9 ul{
+    text-align: left;
+}
+
+#header-area.left-menu .col-md-3{
+    order: 2;
+}
+
+/* center menu  */
+#header-area.center-menu .col-md-9{
+    width: 100%;
+}
+#header-area.center-menu .col-md-9 ul{
+    text-align: center;
+}
+
+#header-area.center-menu .col-md-3{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
