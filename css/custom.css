@@ -84,6 +84,10 @@ div#header-area .col-md-9 ul li:hover > ul {
     display: block;
 }
 
+.walker_nav {
+    display: block;
+    font-size: 12px;
+}
 
 /* =========================
    Second / Third Level Menu
@@ -115,6 +119,10 @@ div#header-area .col-md-9 ul ul ul {
 #header-area.center-menu .col-md-9 ul{
     text-align: center;
 }
+#header-area.center-menu .col-md-9 ul ul{
+    text-align: left;
+}
+
 
 #header-area.center-menu .col-md-3{
     width: 100%;
