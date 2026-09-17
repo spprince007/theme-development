@@ -129,3 +129,18 @@ div#header-area .col-md-9 ul ul ul {
     text-align: center;
     margin-bottom: 10px;
 }
+
+/* footer area  */
+
+#copyright_area{
+    background: #292929;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+}
+#copyright_area a{
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+}
+

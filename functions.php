@@ -71,6 +71,25 @@ function agp_customizar_register($wp_customize){
             'center-menu' => __('Center Menu', 'prince'),
         ),
     ));
+
+   // footer Position Option
+    $wp_customize->add_section('agp_footer_option', array(
+        'title'       => __('Footer Option', 'prince'),
+        'description' => __('You can change or update your footer', 'prince'),
+    ));
+
+
+    $wp_customize->add_setting('agp_copyright_section', array(
+        'default'   => '&copy; copyright 2026 | AGP',
+    ));
+
+
+    $wp_customize->add_control('agp_copyright_section', array(
+        'label'       => 'Copyright text',
+        'description' => 'If need you can update your copyright text from here',
+        'settings'    => 'agp_copyright_section',
+        'section'     => 'agp_footer_option',
+    ));
 }
 
 add_action('customize_register','agp_customizar_register' );
