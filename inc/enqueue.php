@@ -17,6 +17,6 @@ add_action('wp_enqueue_scripts', 'app_genius_css_file_calling');
 
 // google font enqueue 
 function agp_add_google_fonts(){
-    wp_enqueue_style( 'agp_google_font', 'https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Oswald:wght@200..700&display=swap', false );
+    wp_enqueue_style( 'agp_google_font', 'https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap', false );
 }
 add_action( 'wp_enqueue_scripts', 'agp_add_google_fonts' );

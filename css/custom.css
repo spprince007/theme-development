@@ -3,6 +3,18 @@ img{
     max-width: 100%;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 1.5em;
+}
+
+
 /* header style  */
  #header-area {
     padding: 15px 0;
@@ -129,6 +141,19 @@ div#header-area .col-md-9 ul ul ul {
     text-align: center;
     margin-bottom: 10px;
 }
+
+/* ==============================
+index page design style  
+====================================*/
+#body-area{padding: 45px 0;}
+#body-area .blog_area{width: 100%; margin-bottom: 15px;}
+#body-area .post_thumb{width: 100%; margin-bottom: 15px; overflow: hidden;}
+#body-area .post_thumb img{width: 100%; display: block; transition: 0.5s;}
+#body-area .post_thumb:hover img{transform: scale(1.1);}
+#body-area .post-details{width: 100%; margin-bottom: 15px;}
+#body-area .post-details h2{font-family: 'Roboto', sans-serif; font-size: 30; font-weight: 700;} 
+#body-area .post-details h2 a{color: #262626; text-decoration: none; transition: 0.5s;} 
+#body-area .post-details h2 a:hover{color: #029fff; text-decoration: none;} 
 
 /* footer area  */
 
