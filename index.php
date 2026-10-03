@@ -2,12 +2,10 @@
 get_header();
 ?>
     
-<<<<<<< HEAD
     <section id="boady-area">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-=======
     <section id="body-area">
         <div class="container">
             <div class="row">
@@ -34,7 +32,6 @@ get_header();
                     
                 </div>
                 <div class="col-md-3">
->>>>>>> 29a89f5 (index style c=14)
                     <?php the_content( ); ?>
                 </div>
             </div>

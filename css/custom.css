@@ -14,6 +14,21 @@ p{
     line-height: 1.5em;
 }
 
+.read-more {
+    background: #20deff;
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+}
+.read-more:hover {
+    background: #000;
+    color: #fff;
+;
+}
+
+
 
 /* header style  */
  #header-area {
